@@ -2,16 +2,19 @@ package exemplos;
 
 
 
+import org.junit.Test;
+
 import junit.framework.Assert;
 public class RetTest {
 	
-	@org.junit.Test
+	@SuppressWarnings("deprecation")
+	@Test
 	public void testaAdicao() {
 		double result;
 		Ret conta = new Ret();
 		
 		result = conta.adicao(10.50, 10.50);
 		
-		Assert.assertEquals(22, result, 0);
+		Assert.assertEquals(21, result, 0);
 	}
 }
