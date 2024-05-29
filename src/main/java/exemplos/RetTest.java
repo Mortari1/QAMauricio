@@ -1,11 +1,11 @@
 package exemplos;
 
-import org.junit.jupiter.api.Test;
 
-import junit.framework.*;
+
+import junit.framework.Assert;
 public class RetTest {
 	
-	@Test
+	@org.junit.Test
 	public void testaAdicao() {
 		double result;
 		Ret conta = new Ret();
